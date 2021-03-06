@@ -1,0 +1,126 @@
+@media only screen and (min-width:1061px)
+{
+	h1
+	{
+		font-size:12em;
+		text-shadow:9px 9px 9px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:1060px)
+{
+	h1
+	{
+		font-size:11em;
+		text-shadow:8px 8px 8px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:1006px)
+{
+	h1
+	{
+		font-size:10em;
+		text-shadow:7px 7px 7px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:866px)
+{
+	h1
+	{
+		font-size:10em;
+		text-shadow:6px 6px 6px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:782px)
+{
+	h1
+	{
+		font-size:9em;
+		text-shadow:5px 5px 5px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:640px)
+{
+	h1
+	{
+		font-size:6em;
+		text-shadow:5px 5px 5px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:438px)
+{
+	h1
+	{
+		font-size:5em;
+		text-shadow:5px 5px 5px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:362px)
+{
+	h1
+	{
+		font-size:3em;
+		text-shadow:4px 4px 4px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}	
+@media only screen and (max-width:218px)
+{
+	h1
+	{
+		font-size:1em;
+		text-shadow:3px 3px 3px midnightblue;
+		float:none;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}	
