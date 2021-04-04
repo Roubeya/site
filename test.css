@@ -1,0 +1,249 @@
+*
+{
+	font-family:'Aladin', cursive;
+	transition:1s;
+	margin:0;
+	background:linear-gradient(to bottom ,cyan,navy) fixed;
+	color:black;
+}
+
+h1 
+{
+	cursor:pointer;
+	font-family:'Bungee Shade', cursive;
+       	width:auto;
+	font-size:1em;
+}
+
+picture
+{
+	position:relative;
+}
+
+div.home
+{
+	display:inline-block;
+}
+
+nav 
+{
+	float:left;
+        width:100%;
+}
+
+nav ul
+{
+	margin-right: 10%;
+        padding: 0;
+        float:right;
+        text-align: center;
+}
+
+nav ul li 
+{
+	cursor:pointer;
+	list-style-type:none;
+	display:inline-block;
+	padding:8px;
+}
+
+nav ul li a
+{
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+}
+
+nav ul li a:hover
+{
+	color:white;
+	text-shadow:1px 1px 1px black;
+	transition:0.5s;
+	text-border:2px 2px  2px black;
+
+}
+
+strong em
+{
+	font-size:6em;
+	text-shadow:3px 3px 3px white;
+	cursor:pointer;
+}
+
+
+strong em
+{
+	text-shadow:2px 2px 2px white;
+}
+
+li
+{
+	font-size:1.5em;
+}
+
+
+/* Responsiveness Parts */
+
+@media only screen and (min-width:1061px)
+{
+	h1
+	{
+		font-size:12em;
+		text-shadow:9px 9px 9px white;
+		float:none;
+	}
+
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:1060px)
+{
+	h1
+	{
+		font-size:11em;
+		text-shadow:8px 8px 8px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:1006px)
+{
+	h1
+	{
+		font-size:10em;
+		text-shadow:7px 7px 7px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:866px)
+{
+	h1
+	{
+		font-size:10em;
+		text-shadow:6px 6px 6px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:782px)
+{
+	h1
+	{
+		font-size:9em;
+		text-shadow:5px 5px 5px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:640px)
+{
+	h1
+	{
+		font-size:6em;
+		text-shadow:5px 5px 5px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:438px)
+{
+	h1
+	{
+		font-size:5em;
+		text-shadow:5px 5px 5px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}
+@media only screen and (max-width:362px)
+{
+	h1
+	{
+		font-size:3em;
+		text-shadow:4px 4px 4px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}	
+@media only screen and (max-width:218px)
+{
+	h1
+	{
+		font-size:1em;
+		text-shadow:3px 3px 3px white;
+		float:none;
+	}
+	h1:hover
+	{
+		text-shadow:2px 2px 2px white;
+	}
+
+	body
+	{
+		width:auto;
+	}
+}	
