@@ -1,0 +1,25 @@
+<!--Designed by Ashirbad Sarangi-->
+<html>
+	<head>
+		<title>Change Background Colour </title>
+	</head>
+
+	<body style = "text-align:center;">
+		<button onclick = "gfg_Run()">Change</button>
+		<script>
+			var el_up = document.getElementById("GFG_UP");
+			var el_down = document.getElementById("GFG_DOWN"); var str = "Click on button to change the background color";
+			el_up.innerHTML = str;
+			function changeColor(color) 
+			{
+				document.body.style.background = color;
+			}
+			function gfg_Run() 
+			{
+				changeColor('linear-gradient(to top,cyan,black) fixed');
+				el_down.innerHTML = "Background Color Changed !!!";
+			}
+		</script>
+	</body>
+</html> 
+
