@@ -3,7 +3,6 @@
 	font-family:'Aladin', cursive;
 	transition:1s;
 	margin:0;
-	background:linear-gradient(to bottom ,cyan,navy) fixed;
 	color:black;
 }
 
@@ -13,12 +12,10 @@ h1
 	font-family:'Bungee Shade', cursive;
        	width:auto;
 	font-size:1em;
+	text-align:center;
+	text-shadow:1px 1px 1px black;
 }
 
-picture
-{
-	position:relative;
-}
 
 div.home
 {
@@ -51,29 +48,29 @@ nav ul li a
 {
 	text-decoration:none;
 	color:black;
-	font-size:1.5em;
+	font-size:1em;
 }
 
 nav ul li a:hover
 {
-	color:white;
-	text-shadow:1px 1px 1px black;
+	color:tomato;
+	text-shadow:1px 1px 1px white;
 	transition:0.5s;
-	text-border:2px 2px  2px black;
+	text-border:2px 2px  2px tomato;
 
 }
 
 strong em
 {
 	font-size:6em;
-	text-shadow:3px 3px 3px white;
+	text-shadow:3px 3px 3px rebeccapurple;
 	cursor:pointer;
 }
 
 
 strong em
 {
-	text-shadow:2px 2px 2px white;
+	text-shadow:2px 2px 2px rebeccapurple;
 }
 
 li
@@ -89,13 +86,13 @@ li
 	h1
 	{
 		font-size:12em;
-		text-shadow:9px 9px 9px white;
+		text-shadow:9px 9px 9px rebeccapurple;
 		float:none;
 	}
 
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -108,12 +105,12 @@ li
 	h1
 	{
 		font-size:11em;
-		text-shadow:8px 8px 8px white;
+		text-shadow:8px 8px 8px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -126,12 +123,12 @@ li
 	h1
 	{
 		font-size:10em;
-		text-shadow:7px 7px 7px white;
+		text-shadow:7px 7px 7px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -144,12 +141,12 @@ li
 	h1
 	{
 		font-size:10em;
-		text-shadow:6px 6px 6px white;
+		text-shadow:6px 6px 6px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -162,12 +159,12 @@ li
 	h1
 	{
 		font-size:9em;
-		text-shadow:5px 5px 5px white;
+		text-shadow:5px 5px 5px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -180,12 +177,12 @@ li
 	h1
 	{
 		font-size:6em;
-		text-shadow:5px 5px 5px white;
+		text-shadow:5px 5px 5px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -198,12 +195,12 @@ li
 	h1
 	{
 		font-size:5em;
-		text-shadow:5px 5px 5px white;
+		text-shadow:5px 5px 5px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -216,12 +213,12 @@ li
 	h1
 	{
 		font-size:3em;
-		text-shadow:4px 4px 4px white;
+		text-shadow:4px 4px 4px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
@@ -234,12 +231,12 @@ li
 	h1
 	{
 		font-size:1em;
-		text-shadow:3px 3px 3px white;
+		text-shadow:3px 3px 3px rebeccapurple;
 		float:none;
 	}
 	h1:hover
 	{
-		text-shadow:2px 2px 2px white;
+		text-shadow:2px 2px 2px rebeccapurple;
 	}
 
 	body
