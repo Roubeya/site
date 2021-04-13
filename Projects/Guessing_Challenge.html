@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Number guessing game</title>
+    <title>Guessing Challenge !!!</title>
+	  <link rel="icon" href="https://pngimg.com/uploads/brain/brain_PNG5.png">
 
     <style>
       html {
         font-family: sans-serif;
+	background:steelblue;      
       }
 
       body {
@@ -25,10 +27,11 @@
   </head>
 
   <body>
-	  <h1><strong>Guess Me !!!</strong></h1>
-
+	  <h1><strong>Guessing Challenge !!!</strong></h1>
+	  
 	  <h2><u><b>Rules :</b></u></h2>
-   		 <p>The computer has selected a random number in the range 1 to 100.<br>You need to guess it in 10 turns or less!!</p>
+   		 <p>The computer has selected a random number in the range 1 to 100.<br>You need to guess it in 5 turns or less!!</p>
+	  
 
     <div class="form">
       <label for="guessField">Enter a guess: </label><input type="text" id="guessField" class="guessField">
@@ -60,11 +63,11 @@
         guesses.textContent += userGuess + ' |-| ';
 
         if (userGuess === randomNumber) {
-          lastResult.textContent = 'Congratulations! You got it right!';
+          lastResult.textContent = 'Congratulations! You got it right! You have a lucky day today !!! ';
           lastResult.style.backgroundColor = 'green';
           lowOrHi.textContent = '';
           setGameOver();
-        } else if (guessCount === 10) {
+        } else if (guessCount === 5) {
           lastResult.textContent = '!!!GAME OVER!!!';
           lowOrHi.textContent = '';
           setGameOver();
