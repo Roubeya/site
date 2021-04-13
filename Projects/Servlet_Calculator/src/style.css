@@ -1,0 +1,22 @@
+*
+{
+        font-family:cursive;
+	color:black;
+}
+
+form  strong
+{
+	color:red;
+	font-size:2em; 
+}
+
+form input
+{
+	border:1px solid black;
+	font-size:3em;
+       	text-align:center;
+}
+
+
+
+	
